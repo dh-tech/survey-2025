@@ -1,6 +1,14 @@
 header .nav {
     max-width: 75%;
 }
-.main {
+.main{
     max-width: 75%;
+}
+
+.list header .nav {
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+}
+
+.list .main {
+    max-width: calc(var(--main-width) + var(--gap) * 2);
 }
