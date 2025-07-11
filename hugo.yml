@@ -1,10 +1,7 @@
 baseURL: https://localhost:1313/
 title: Survey Results 2025
 theme: [papermod]
-params:
-  assets:
-    css:
-      - css/custom.css
+
 params:
   disableSpecial1stPost: true
 
