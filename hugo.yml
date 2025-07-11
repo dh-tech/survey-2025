@@ -5,3 +5,5 @@ params:
   assets:
     css:
       - css/custom.css
+params:
+  disableSpecial1stPost: true
