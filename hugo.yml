@@ -7,3 +7,12 @@ params:
       - css/custom.css
 params:
   disableSpecial1stPost: true
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1 
+    - name: About
+      url: /about/
+      weight: 2
