@@ -4,7 +4,7 @@ title: "About"
 
 In 2020, DHTech ran a [survey](https://dh-tech.github.io/survey-results-2020/) to better understand who is developing code in the digital humanities, including what technologies they use, what formal and informal training they have, and their career expectations and experiences. 
 
-To understand how the environment for research software engineering practitioners in DH has changed, we repeated the survey in 2025. For [DH2025](https://dh2025.adho.org/), we submitted this poster that presents the survey results. We retained some of the [original survey](https://dh-tech.github.io/survey-results-2020/) questions to enable longitudinal comparisons. 
+To understand how the environment for research software engineering practitioners in DH has changed, we repeated the survey in 2025. For [DH2025](https://dh2025.adho.org/), we submitted [this poster](https://zenodo.org/records/15863899) that presents the survey results. We retained some of the [original survey](https://dh-tech.github.io/survey-results-2020/) questions to enable longitudinal comparisons. 
 
 This enables us to compare the prevalence of different programming languages and frameworks, the types of technical work that DH developers undertake, and where and in what kinds of teams DH development happens institutionally now versus in 2020. 
 
