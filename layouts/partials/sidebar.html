@@ -1,0 +1,12 @@
+<aside class="sidebar">
+    <ul>
+      {{ range .Site.RegularPages.ByDate}}
+        {{ if (eq .Title "About") }}
+          {{- continue -}}
+        {{ end }} 
+        <li{{ if eq .Permalink $.Permalink }} class="current"{{ end }}>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+</aside>

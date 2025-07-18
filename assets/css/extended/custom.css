@@ -1,14 +1,30 @@
 header .nav {
-    max-width: 75%;
+    max-width: 70%;
 }
 .main{
-    max-width: 75%;
-}
-
-.list header .nav {
-    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    max-width: 70%;
 }
 
 .list .main {
     max-width: calc(var(--main-width) + var(--gap) * 2);
+}
+
+.sidebar {
+border-left: 1px solid var(--divider);
+position: fixed;
+padding-right: 0.5rem;
+right: 0;
+top: auto;
+bottom: auto;
+font-size: 1rem;
+}
+
+.sidebar li {
+    padding-top: 1rem;
+    list-style-type: none;
+}
+
+.sidebar .current a {
+font-weight: bold;
+color: var(--primary);
 }
